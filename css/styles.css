@@ -1,0 +1,227 @@
+/* to do:
+- resize fonts
+- linkedin logo takes too much space
+*/
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+/* header styling */
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nameandlogo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin-left: 1rem;
+    text-align: center;
+    justify-content: center;
+    line-height: 50%;
+}
+
+.navContainer{
+    background-color: #92C9B1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navContainer li{
+    list-style-type: none;
+}
+
+.navContainer a{
+    display: inline-block;
+    padding: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    text-align: center;
+    text-decoration: none;
+    color: #172E21;
+    width: auto;
+    height: auto;
+}
+
+.navContainer a:hover{
+    background-color: #6b9683;
+    color: #fff;
+}
+
+main{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0;
+}
+
+main > img {
+    width: 100%;
+}
+
+/* index main styling */
+.covidSection{
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #4F9C73;
+    align-items: center;
+    padding: 3rem;
+    color: #fff;
+}
+
+.learnMoreSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    gap: 3rem;
+}
+
+.learnMoreSection article{
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+}
+
+button{
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    color: #fff;
+    background-color: #4F9C73;
+    border-color: #4F9C73;
+    width: 60%;
+}
+
+.prefChoice {
+    background-color: #92C9B1;   
+}
+
+.prefChoice img{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.propCare img{
+    width: 100%;
+}
+
+article h2{
+    color: #172E21;
+}
+
+.homeServices{
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.homeServices img{
+    width: 30%;
+}
+
+.homeServices ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 2rem;
+    width: 75%;
+    gap: 1rem;
+}
+
+.homeServices li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.homeQualities{
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BAF3BB;
+    padding: 2rem;
+}
+
+.homeQualities img{
+    width: 30%;
+    height: 40%;
+}
+
+.homeQualities ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    list-style-type: none;
+    padding: 2rem;
+    justify-content: center;
+    width: 90%;
+    gap: 3rem;
+    margin: auto;
+}
+
+.homeQualities li{
+    display:flex;
+    max-width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer styling */
+
+footer{
+    background-color: #4F9C73;
+    color: #fff;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+footer li{
+    display: flex;
+    margin: auto;
+    align-self: center;
+}
+
+footer img{
+    width: 30%;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1rem;
+}
