@@ -1,7 +1,7 @@
 /* to do:
 - resize fonts
 - linkedin logo takes too much space
-- responsiveness for mobile phones is still magulo ;-;
+- responsiveness for mobile phones is still magulo ;-; 
 */
 
 *{
@@ -309,6 +309,142 @@ article h2{
     margin: 2rem 0 3rem 0;
     padding: 2rem;
 }
+
+/* Contact Us main styling */
+
+.contactUsMain{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+}
+
+.contactUsMain h2{
+    color: #172E21;
+}
+
+.cuContactInfo{
+    display: flex;
+    flex-direction: row;
+    flex-flow: column wrap;
+    padding: 2rem;
+    margin: 3rem 1rem 5rem 1rem;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactContent{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    border: #4F9C73 solid 0.1rem;
+    padding: 2rem;
+    word-wrap: break-word;
+}
+
+.cuContactInfo img{
+    width: 30%;
+}
+
+.cuForm{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin: 2rem 0 3rem 0;
+    align-items: center;
+    background-color: #BAF3BB;
+    justify-content: center;
+}
+
+.cuActualForm{
+    width: 70%;
+}
+
+::placeholder { 
+    color: #172E21;
+    opacity: 0.5; 
+}
+
+.cuActualForm input{
+    height: 1.5rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    border: solid #4F9C73 0.1rem;
+    padding: 0.5rem;
+}
+
+.cuFormFirstRow {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.cuFormFirstRow div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cuFormSecondRow {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.cuFormSecondRow div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cuFormThirdRow{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cuFormThirdRow textarea{
+    width: 68%;
+    border-radius: 0.5rem;
+    border: solid #4F9C73 0.1rem;
+    padding: 0.5rem;
+}
+
+.cuFormButton{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+.questionsAndConcerns{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #92C9B1;
+    margin: 2rem 0 3rem 0;
+    padding: 2rem;
+}
+
+.questionsAndConcerns p{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+}
+
 /* footer styling */
 
 footer{
