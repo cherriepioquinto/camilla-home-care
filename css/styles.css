@@ -1,6 +1,7 @@
 /* to do:
 - resize fonts
 - linkedin logo takes too much space
+- responsiveness for mobile phones is still magulo ;-;
 */
 
 *{
@@ -187,6 +188,72 @@ article h2{
     flex-direction: column;
     align-items: center;
 }
+
+
+/* About Us main styling */
+
+.aboutUsMain{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+}
+
+.aboutUsMain h2{
+    color: #172E21;
+}
+
+.aboutSection{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 3rem 0 3rem 0;
+}
+
+.aboutSection img{
+    width: 80%;
+}
+
+.aboutSection div{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.missionStatement {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    background-color: #4F9C73;
+    color: #fff;
+    padding: 2rem;
+    justify-content: center;
+    margin: 3rem auto 3rem auto;
+}
+
+.missionStatement h2{
+    color: #fff;
+}
+
+.foopSection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    padding: 2rem;
+    align-items: center;
+    background-color: #92C9B1;
+    margin: 3rem 0 3rem 0;
+}
+
+.foopSection p{
+    padding: 0 3rem 0 3rem;
+}
+
 
 /* footer styling */
 
