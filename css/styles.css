@@ -1,7 +1,6 @@
 /* to do:
 - resize fonts
-- linkedin logo takes too much space
-- responsiveness for mobile phones is still magulo ;-; 
+- improved responsiveness BUT could still be improved ;-;
 */
 
 *{
@@ -93,7 +92,7 @@ main > img {
 .learnMoreSection{
     display: flex;
     flex-direction: row;
-    flex-wrap: row wrap;
+    flex-flow: row wrap;
     gap: 3rem;
 }
 
@@ -116,7 +115,12 @@ button{
 }
 
 .prefChoice {
-    background-color: #92C9B1;   
+    background-color: #92C9B1;  
+    width: 30%; 
+}
+
+.propCare{
+    width: 40%;
 }
 
 .prefChoice img{
@@ -160,17 +164,16 @@ article h2{
 }
 
 .homeQualities{
-    margin: 5rem 0 5rem 0;
+    margin: 5rem auto 5rem auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     background-color: #BAF3BB;
     padding: 2rem;
 }
 
 .homeQualities img{
     width: 30%;
-    height: 40%;
 }
 
 .homeQualities ul {
@@ -189,6 +192,7 @@ article h2{
     display:flex;
     max-width: 30%;
     flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
 }
 
@@ -289,13 +293,13 @@ article h2{
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 2rem 0 3rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .jobsContent div{
     display: flex;
     width: 40%;
-    padding: 4rem;
+    padding: 2rem 4rem 2rem 4rem;
 }
 
 .jobsGreen {
@@ -538,6 +542,7 @@ footer{
     color: #fff;
     padding: 3rem;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
 }
 
@@ -548,8 +553,8 @@ footer ul{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
 footer li{
