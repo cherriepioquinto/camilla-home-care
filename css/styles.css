@@ -255,6 +255,60 @@ article h2{
 }
 
 
+/* Join Our Team main styling */
+
+.joinOurTeamMain{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+}
+
+.joinOurTeamMain h2{
+    color: #172E21;
+}
+
+.joinOurTeamMain button{
+    width: 50%;
+}
+
+.jobsSection{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 3rem 0 3rem 0;
+    align-items: center;
+}
+
+.jobsContent{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2rem 0 3rem 0;
+}
+
+.jobsContent div{
+    display: flex;
+    width: 40%;
+    padding: 4rem;
+}
+
+.jobsGreen {
+    background-color: #4F9C73;
+    color: #fff;
+}
+
+.jobsContactSection{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #BAF3BB;
+    margin: 2rem 0 3rem 0;
+    padding: 2rem;
+}
 /* footer styling */
 
 footer{
